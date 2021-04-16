@@ -9,6 +9,5 @@
             <Button x:Name="translateButton" Text="Translate" />
             <Button x:Name="callButton" Text="Call" IsEnabled="false"/>
         </StackLayout>
-        
     </ContentPage.Content>
 </ContentPage>
