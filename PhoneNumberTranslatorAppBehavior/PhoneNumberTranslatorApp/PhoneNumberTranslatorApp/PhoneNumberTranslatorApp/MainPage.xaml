@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PhoneNumberTranslatorApp"
+             x:Class="PhoneNumberTranslatorApp.MainPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS">0,40,0,0</On>
+        </OnPlatform>
+    </ContentPage.Padding>
+    <StackLayout>
+        <Label Text="Enter a Phoneword:" FontSize="Large" />
+        <Entry x:Name="phoneNumberText" Text="1-855-XAMARIN" />
+        <Button x:Name="translateButton" Text="Translate" Clicked="OnTranslate"
+                TextColor="{x:Static local:SharedResources.ButtonTextColor}"
+                BackgroundColor="{x:Static local:SharedResources.ButtonBkColor}" />
+        <Button x:Name="callButton" Text="Call" IsEnabled="false" Clicked="OnCall" />
+    </StackLayout>
+</ContentPage>
