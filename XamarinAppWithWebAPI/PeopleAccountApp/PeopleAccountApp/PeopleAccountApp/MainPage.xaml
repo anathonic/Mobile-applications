@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PeopleAccountApp.MainPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image x:Name="imgPhoto" />
+        <StackLayout Grid.Row="1">
+  
+            <Entry x:Name="Firstname" Placeholder="First name" />
+            <Entry x:Name="Lastname" Placeholder="Last name" />
+            <Entry x:Name="Phonenumber" Placeholder="Phone number" Keyboard="Telephone" />
+            <Button x:Name="TakePhoto" Margin="50,20,50,50" BorderWidth="1" BorderColor="Black" BackgroundColor="Yellow" Text="Take a Photo" />
+        </StackLayout>
+        <StackLayout Grid.Row="2" VerticalOptions="EndAndExpand">
+            <Button x:Name="SaveProfile" FontSize="20" Margin="50,50" BorderWidth="1" BorderColor="Black" BackgroundColor="blue" Text="Save data" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
