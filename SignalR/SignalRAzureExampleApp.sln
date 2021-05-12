@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetCoreApp", "AspNetCoreApp", "{5608B1C3-7247-474B-8695-D8B2D26C3581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRAzureExampleApp.AspNetCoreApp", "AspNetCoreApp\SignalRAzureExampleApp.AspNetCoreApp\SignalRAzureExampleApp.AspNetCoreApp.csproj", "{076B1CC3-2882-47C6-8C21-7B3F7A771D3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebClient", "WebClient", "{81F36241-B7F1-4AF4-AD97-51FA3E002DCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AirConditioner", "AirConditioner", "{84B49838-8D45-41EC-A28C-3549658C48A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRAzureExampleApp.AirConditioner", "AirConditioner\SignalRAzureExampleApp.AirConditioner\SignalRAzureExampleApp.AirConditioner.csproj", "{9DCE770F-1C64-4813-A562-8A5D6D7555ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{076B1CC3-2882-47C6-8C21-7B3F7A771D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076B1CC3-2882-47C6-8C21-7B3F7A771D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076B1CC3-2882-47C6-8C21-7B3F7A771D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076B1CC3-2882-47C6-8C21-7B3F7A771D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCE770F-1C64-4813-A562-8A5D6D7555ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCE770F-1C64-4813-A562-8A5D6D7555ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCE770F-1C64-4813-A562-8A5D6D7555ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCE770F-1C64-4813-A562-8A5D6D7555ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{076B1CC3-2882-47C6-8C21-7B3F7A771D3D} = {5608B1C3-7247-474B-8695-D8B2D26C3581}
+		{9DCE770F-1C64-4813-A562-8A5D6D7555ED} = {84B49838-8D45-41EC-A28C-3549658C48A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31EB3094-DDDA-4989-9F19-D1DD4BDE905A}
+	EndGlobalSection
+EndGlobal
